@@ -68,6 +68,10 @@
 //                summ = num % 10;
 //                summ = (summ + 1) % 10;
 //            }
+//            if (num > 0 || num < 1000)
+//            {
+//            summ = (num % 1000)/100 + (num % 100)/10 + (num % 10);
+//            }
 //            return summ;
 //        }
 //    }
